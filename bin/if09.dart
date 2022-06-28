@@ -13,12 +13,10 @@ bool func(a){
     int x = a%10;
     int y = a~/10;
     int z = y*10+x;
-    bool c = a > 0;
-    bool b = a < 0;
     if (a >= y){
-        return c;
+        return true;
     }
-    return b;
+    return false;
 }
 void main() {
     print(func(74));
