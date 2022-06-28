@@ -16,11 +16,11 @@ int func(a,b,c){
     if (b < 0){
         x += 1;
     }
-    if (c += 0){
+    if (c < 0){
         x += 1;
     }
     return x;
 }
 void main() {
-    print(func(5,6,2));
+    print(func(5,-6,-2));
 }
