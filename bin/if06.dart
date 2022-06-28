@@ -13,8 +13,8 @@
         string: string with the result*/
 String func(a,b,c){
     int x = 0;
-    String z = "There are a lot of positive numbers";
-    String s = "There are a lot of negative numbers";
+    String z = "there are a lot of positive numbers";
+    String s = "there are a lot of negative numbers";
     if (a > 0){
         x += 1;
     }
