@@ -9,16 +9,18 @@
     returns:
         integer: the number of positive numbers in the given numbers */
 int func(a,b,c){
+    int x = 0;
     if (a > 0){
-        return a = 1;
+        x += 1;
     }
     if (b > 0){
-        return b = 1;
+        x += 1;
     }
     if (c > 0){
-        return c = 1;
+        x += 1;
     }
+    return x;
 }
 void main() {
-    print(func(3,5,-3));
+    print(func(3,5,8));
 }
