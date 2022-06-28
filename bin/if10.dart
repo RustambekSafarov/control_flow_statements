@@ -12,5 +12,32 @@
         temp: integer
     Returns:
         string: the message to return*/
-
-void main() {}
+String func(temp){
+    String x = "Freezing";
+    String y = "Very Cold";
+    String z = "Cold";
+    String a = "Normal";
+    String b = "Hot";
+    String c = "Very Hot";
+    if (temp<0){
+        return x;
+    }
+    if (temp>1 && temp <=10){
+        return y;
+    }
+    if (temp>=11 && temp<=20){
+        return z;
+    }
+    if (temp>=21 && temp<=30){
+        return a;
+    }
+    if (temp>=31 && temp<=40){
+        return b;
+    }
+    if (temp>=41 && temp<=50){
+        return c;
+    }
+}
+void main() {
+    print(func(32));
+}
