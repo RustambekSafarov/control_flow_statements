@@ -21,5 +21,5 @@ bool func(a){
     return b;
 }
 void main() {
-    print(func(34));
+    print(func(74));
 }
